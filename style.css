@@ -3,42 +3,33 @@
   padding: 0px;
 }
 
-.wraper {
-  margin: 20px;
-  display: flex;
-  /* height: 700px; */
-  border: 1px solid black;
-  /* justify-content: space-evenly; */
-  /* justify-content: space-between; */
-  /* justify-content: space-around; */
-  /* flex-direction: column; */
-  flex-wrap: wrap;
+.cardContainer {
+  border: 2px solid gray;
+  height: 1600px;
+  margin: 30px;
 }
 
-.item {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  color: white;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cardLeft {
+  width: 30%;
+  height: 400px;
+  position: relative;
 }
 
-.otherWraper {
-  border: 2px solid black;
-  height: 500px;
-  margin: 50px;
-  display: flex;
-  /* justify-content: end; */
-  align-items: center;
-  justify-content: center;
 
+.img {
+  width: 100%;
+  height: 100%;
 }
 
-.subWraper {
-  border: 2px solid blue;
-  height: 200px;
-  width: 200px;
+.featured {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cardRight {
+  width: 70%;
 }
