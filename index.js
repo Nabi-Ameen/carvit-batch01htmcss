@@ -1,13 +1,21 @@
-let firstName = "ali";
-let lastName = "khan";
-let Rollno = 1234;
-let address = "abc123";
-
-let std1 = {
-  firstName: "ali",
-  lastName: "khan",
-  Rollno: 1234,
-  address: "abc123",
+let person = {
+  firstName: "majid",
+  lastName: "Khan",
+  contactNo: "092308097562",
+  age: 30,
+  address: {
+    address1: "office address",
+    address2: "home address",
+  },
 };
 
-console.log(typeof num3);
+delete person.firstName;
+
+person.nationality = "Pakistani";
+console.log(person);
+
+// console.log(person.address);
+
+// console.log(person);
+
+// window.alert();
