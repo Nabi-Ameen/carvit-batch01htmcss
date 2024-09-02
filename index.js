@@ -52,14 +52,26 @@ multiply(10, 20);
 //   console.log("u r failed");
 // }
 
+// const checkElement = (numberArray) => {
+//   for (let i = 0; i <= numberArray.length - 1; i++) {
+//     if (i <= 5) {
+//       console.log(numberArray[i]);
+//     }
+//   }
+// };
+
+// checkElement(numbers);
+// let numbers2 = [11, 12, 13, 14, 15];
+// numbers.pop(); delete last element;
+// numbers.shift(); delete first Element;
+// numbers.push(11); add element last index;
+// numbers.unshift(0); add element first index;
+// numbers.includes(6);
+// console.log(numbers.slice(1, 5));
+// let combineArray = numbers.concat(numbers2);
+
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-const checkElement = (numberArray) => {
-  for (let i = 0; i <= numberArray.length - 1; i++) {
-    if (i <= 5) {
-      console.log(numberArray[i]);
-    }
-  }
-};
-
-checkElement(numbers);
+let findElement = numbers.find((num) => num === 3);
+let filterElement = numbers.filter((num) => num < 6);
+let iterateNumbers = numbers.map((num, index) => num * 2);
+// console.log(iterateNumbers);
