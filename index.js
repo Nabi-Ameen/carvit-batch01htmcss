@@ -80,23 +80,49 @@
 
 // console.log(numbers);
 
-const fruits = [
-  { name: "apple", color: "red" },
-  { name: "peaches", color: "red" },
-  { name: "plum", color: "black" },
-  { name: "banana", color: "yellow" },
-];
+// const fruits = [
+//   { name: "apple", color: "red" },
+//   { name: "peaches", color: "red" },
+//   { name: "plum", color: "black" },
+//   { name: "banana", color: "yellow" },
+// ];
 
-const updateArray = fruits.map((fruit) => ({
-  fruitName: fruit.name.toUpperCase(),
-  fruitColor: fruit.color.toLowerCase(),
-}));
+// const updateArray = fruits.map((fruit) => ({
+//   fruitName: fruit.name.toUpperCase(),
+//   fruitColor: fruit.color.toLowerCase(),
+// }));
 
 // console.log(updateArray);
 
-const student = [
-  { name: "ameen", address: "abcd", age: 30 },
-  { name: "ali", address: "peshawar", age: 30 },
-  { name: "majid", address: "nowshehra", age: 30 },
-  { name: "uzair", address: "karchi", age: 30 },
-];
+// const student = [
+//   { name: "ameen", address: "abcd", age: 30 },
+//   { name: "ali", address: "peshawar", age: 30 },
+//   { name: "majid", address: "nowshehra", age: 30 },
+//   { name: "uzair", address: "karchi", age: 30 },
+// ];
+
+// objec destructure
+// const student = { stdName: "wajid", stdAdrees: "peshawar", stdAge: 30 };
+// const { stdName, stdAdrees } = student;
+// console.log(stdName);
+
+// array destructure
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const [num1, num2, num3] = numbers;
+// console.log(num2);
+
+// let [num1, num2, ...remainingElement] = [...numbers];
+// console.log(num1, num2, remainingElement);
+
+// let numbers = [1, 2, 3];
+
+// console.log(...numbers);
+
+// const multifly = (num1, num2, num3) => {
+//   return num1 * num2 * num3;
+// };
+
+// console.log(multifly(...numbers));
+
+const colors = ["yellow", "black", "green"];
+const colors2 = ["gray", "cyan", "lightgray"];
