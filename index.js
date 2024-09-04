@@ -26,20 +26,20 @@
 //   console.log(names[index]);
 // }
 
-function sum(num1, num2, num3) {
-  let result = num1 + num2 + num3;
-  return result;
-}
+// function sum(num1, num2, num3) {
+//   let result = num1 + num2 + num3;
+//   return result;
+// }
 
 // console.log("outside function", sum(10, 20, 30));
 // console.log("outside function", sum(100, 200, 300));
 
 // arrow function syntax
-const multiply = (num1, num2) => {
-  let result = num1 * num2;
-  return result;
-};
-multiply(10, 20);
+// const multiply = (num1, num2) => {
+//   let result = num1 * num2;
+//   return result;
+// };
+// multiply(10, 20);
 
 // const marks = 40;
 // if (marks > 40 && marks < 50) {
@@ -70,8 +70,33 @@ multiply(10, 20);
 // console.log(numbers.slice(1, 5));
 // let combineArray = numbers.concat(numbers2);
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let findElement = numbers.find((num) => num === 3);
-let filterElement = numbers.filter((num) => num < 6);
-let iterateNumbers = numbers.map((num, index) => num * 2);
+// let findElement = numbers.find((num) => num === 3);
+// let filterElement = numbers.filter((num) => num < 6);
+// let iterateNumbers = numbers.map((num, index) => num * 2);
 // console.log(iterateNumbers);
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// numbers.splice(1, 0, 12, 13, 14, 15);
+
+// console.log(numbers);
+
+const fruits = [
+  { name: "apple", color: "red" },
+  { name: "peaches", color: "red" },
+  { name: "plum", color: "black" },
+  { name: "banana", color: "yellow" },
+];
+
+const updateArray = fruits.map((fruit) => ({
+  fruitName: fruit.name.toUpperCase(),
+  fruitColor: fruit.color.toLowerCase(),
+}));
+
+// console.log(updateArray);
+
+const student = [
+  { name: "ameen", address: "abcd", age: 30 },
+  { name: "ali", address: "peshawar", age: 30 },
+  { name: "majid", address: "nowshehra", age: 30 },
+  { name: "uzair", address: "karchi", age: 30 },
+];
