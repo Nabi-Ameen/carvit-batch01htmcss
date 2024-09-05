@@ -123,6 +123,26 @@
 // };
 
 // console.log(multifly(...numbers));
+// const colors = ["yellow", "black", "green"];
+// const colors2 = ["gray", "cyan", "lightgray"];
 
-const colors = ["yellow", "black", "green"];
-const colors2 = ["gray", "cyan", "lightgray"];
+// DOM stands for Document object model
+
+// let paraghraph = document.querySelectorAll("p");
+// console.log(paraghraph);
+
+// let btn = document.querySelector("#btn");
+// function showAlert() {
+//     window.alert("hello world");
+// }
+// btn.addEventListener("click", showAlert);
+
+// console.log(btn);
+
+function changColor() {
+  let paraghrap = document.querySelector("#text");
+  paraghrap.style.backgroundColor = "red";
+}
+
+let changeColor = document.querySelector("#changColor");
+changeColor.addEventListener("click", changColor);
